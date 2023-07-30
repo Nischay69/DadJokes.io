@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-image: url("bg.gif");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+h1 {
+  position: absolute;
+  top: 2.4rem;
+  font-size: 2.5rem;
+  color: #212121;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.joke_box {
+  width: 55%;
+  height: 50%;
+  background-color: #323232;
+  position: relative;
+  border-radius: 1rem;
+}
+#joke_text {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  right: 3rem;
+  color: aquamarine;
+  font-size: 1.4rem;
+}
+#next_joke_button,
+#next_joke_button_nepali {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  width: 12rem;
+  height: 3.3rem;
+  background-color: #1a1919;
+  border: none;
+  color: aquamarine;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+#next_joke_button:hover,
+#next_joke_button_nepali:hover {
+  background-color: #252525;
+}
+.nepali_jokes_button,
+.english_jokes_button {
+  position: absolute;
+  bottom: 2rem;
+  left: 4rem;
+  width: 12rem;
+  height: 3.3rem;
+  background-color: #1a1919;
+  border: none;
+  color: aquamarine;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+}
+.nepali_jokes_button:hover,
+.english_jokes_button:hover {
+  background-color: #252525;
+}
